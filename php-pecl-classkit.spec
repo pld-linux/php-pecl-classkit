@@ -6,7 +6,7 @@ Summary(pl):	%{_modname} - modyfikacja metod klasy w czasie dzia³ania skryptu
 Name:		php-pecl-%{_modname}
 Version:	0.1.1
 Release:	1
-License:	PHP 2.02
+License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	f5f71a6c9e31248d803f541c34ea866a
@@ -21,15 +21,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		extensionsdir	%{_libdir}/php
 
 %description
-Allows a running script to add, remove, rename, and redefine
-class methods without reloading.
+Allows a running script to add, remove, rename, and redefine class
+methods without reloading.
 
 In PECL status of this extension is: %{_status}.
 
 %description -l pl
-To rozszerzenie pozwala na dodawanie, usuwanie, zmianê nazwy
-oraz redefiniowanie metod klasy bez konieczno¶ci ponownego
-uruchamiania skryptu.
+To rozszerzenie pozwala na dodawanie, usuwanie, zmianê nazwy oraz
+redefiniowanie metod klasy bez konieczno¶ci ponownego uruchamiania
+skryptu.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
