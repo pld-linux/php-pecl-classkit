@@ -2,19 +2,18 @@
 %define		_status		beta
 %define		_sysconfdir	/etc/php
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
-
 Summary:	%{_modname} - runtime redefinition of class methods
 Summary(pl):	%{_modname} - modyfikacja metod klasy w czasie dzia³ania skryptu
 Name:		php-pecl-%{_modname}
 Version:	0.3
-Release:	2
+Release:	3
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	e7461790b8ae7f06c93bcb1497545224
 URL:		http://pecl.php.net/package/classkit/
 BuildRequires:	php-devel >= 3:5.0.0
-BuildRequires:	rpmbuild(macros) >= 1.238
+BuildRequires:	rpmbuild(macros) >= 1.254
 %{?requires_php_extension}
 Requires:	%{_sysconfdir}/conf.d
 Obsoletes:	php-pear-%{_modname}
