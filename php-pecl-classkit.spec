@@ -6,7 +6,7 @@ Summary:	%{_modname} - runtime redefinition of class methods
 Summary(pl):	%{_modname} - modyfikacja metod klasy w czasie dzia³ania skryptu
 Name:		php-pecl-%{_modname}
 Version:	0.3
-Release:	3
+Release:	4
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
