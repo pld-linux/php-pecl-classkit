@@ -5,12 +5,12 @@
 Summary:	%{_modname} - runtime redefinition of class methods
 Summary(pl):	%{_modname} - modyfikacja metod klasy w czasie dzia³ania skryptu
 Name:		php-pecl-%{_modname}
-Version:	0.3
-Release:	5
+Version:	0.4
+Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	e7461790b8ae7f06c93bcb1497545224
+# Source0-md5:	3d04b0998e03e2375dfa2e118afeaaf3
 URL:		http://pecl.php.net/package/classkit/
 BuildRequires:	php-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.322
