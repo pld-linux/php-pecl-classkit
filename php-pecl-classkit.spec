@@ -1,7 +1,7 @@
 %define		_modname	classkit
 %define		_status		beta
 Summary:	%{_modname} - runtime redefinition of class methods
-Summary(pl):	%{_modname} - modyfikacja metod klasy w czasie dzia³ania skryptu
+Summary(pl.UTF-8):   %{_modname} - modyfikacja metod klasy w czasie dziaÅ‚ania skryptu
 Name:		php-pecl-%{_modname}
 Version:	0.4
 Release:	1
@@ -23,9 +23,9 @@ methods without reloading.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-To rozszerzenie pozwala na dodawanie, usuwanie, zmianê nazwy oraz
-redefiniowanie metod klasy bez konieczno¶ci ponownego uruchamiania
+%description -l pl.UTF-8
+To rozszerzenie pozwala na dodawanie, usuwanie, zmianÄ™ nazwy oraz
+redefiniowanie metod klasy bez koniecznoÅ›ci ponownego uruchamiania
 skryptu.
 
 To rozszerzenie ma w PECL status: %{_status}.
