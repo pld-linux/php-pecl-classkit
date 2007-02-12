@@ -1,7 +1,7 @@
 %define		_modname	classkit
 %define		_status		beta
 Summary:	%{_modname} - runtime redefinition of class methods
-Summary(pl.UTF-8):   %{_modname} - modyfikacja metod klasy w czasie działania skryptu
+Summary(pl.UTF-8):	%{_modname} - modyfikacja metod klasy w czasie działania skryptu
 Name:		php-pecl-%{_modname}
 Version:	0.4
 Release:	1
